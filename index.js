@@ -7,5 +7,5 @@
 * More info: https://expressjs.com/en/api.html#res
 */
 exports.cuong_firstCiCd = (req, res) => {
-  res.send(`Hello ${req.body.name || 'World'}!`);
+  res.send({ yourName: req.body.name });
 };
